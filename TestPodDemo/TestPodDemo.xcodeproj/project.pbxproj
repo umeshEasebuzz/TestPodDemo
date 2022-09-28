@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7877961B28E4654A00F3C173 /* TestPodDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877961A28E4654A00F3C173 /* TestPodDemo.swift */; };
 		78A2422428E4248300289CA0 /* TestPodDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A2421B28E4248200289CA0 /* TestPodDemo.framework */; };
 		78A2422928E4248300289CA0 /* TestPodDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A2422828E4248300289CA0 /* TestPodDemoTests.swift */; };
 		78A2422A28E4248300289CA0 /* TestPodDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A2421E28E4248200289CA0 /* TestPodDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7877961A28E4654A00F3C173 /* TestPodDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodDemo.swift; sourceTree = "<group>"; };
 		78A2421B28E4248200289CA0 /* TestPodDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPodDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A2421E28E4248200289CA0 /* TestPodDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPodDemo.h; sourceTree = "<group>"; };
 		78A2422328E4248300289CA0 /* TestPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				78A2421E28E4248200289CA0 /* TestPodDemo.h */,
+				7877961A28E4654A00F3C173 /* TestPodDemo.swift */,
 			);
 			path = TestPodDemo;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					78A2421A28E4248200289CA0 = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 					78A2422228E4248300289CA0 = {
 						CreatedOnToolsVersion = 14.0;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7877961B28E4654A00F3C173 /* TestPodDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 		78A2422E28E4248300289CA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -453,6 +459,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		78A2422F28E4248300289CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -489,6 +497,7 @@
 		78A2423128E4248300289CA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WRK333LYZQ;
@@ -505,6 +514,7 @@
 		78A2423228E4248300289CA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WRK333LYZQ;
